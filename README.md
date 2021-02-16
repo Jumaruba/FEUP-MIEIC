@@ -2,18 +2,18 @@
  :space_invader: FEUP-MIEIC :space_invader:
 </h3> 
 <p align="center"> This is a repository containing a collection of exercises and projects done in university </p> 
+<br> <br>
 
 ## Content 
-| Subject        | Type      | About                       | Year |
-|----------------|-----------|-----------------------------|------|
-| FEUP-PROG-TPS  | Exercises | Learning to program in C++  | 1st  |
-| FEUP-PROG-Proj | Project   |                             | 1st  |
-| FEUP-MPCP-TPS  | Exercises | Programs exercises in ArmV8 | 1st  |
-| FEUP-AEDA-TPS  | Exercises |                             | 1st  |
-| FEUP-CAL-TPS   | Exercises |                             | 2nd  |
-| FEUP-CGRA-Proj | Project   |                             | 2nd  |
-| FEUP-CGRA-TPS  | Exercises |                             | 2nd  |
-| FEUP-LPOO-TPS  | Exercises |                             | 2nd  |
-| FEUP-SOPE-TPS  | Exercises |                             | 2nd  |
-| FEUP-PLOG-TPS  | Exercises |                             | 3th  |
-| FEUP-LTW-TPS   | Exercises |                             | 3th  |
+The content of this is self explanatory. Each folder has the following structure name: `FEUP-<Subject>-<Type>`.  
+For example, the folder `FEUP-BDAD-Proj` means that it contains the __project__ for the __BDAD__ subject.  
+The types can be __TPS__ (that stands for theorical pratical exercises) and __Proj__ that contains the project(s) created in the subject.   
+However, some projects have its own repository and may not follow the convention of folders.  For these ones I've created a list of content explaining them:  
+
+| Name                     | Subject | Type | About                                          | Year |
+|--------------------------|---------|------|------------------------------------------------|------|
+| FEUP-LCOM20              | LCOM    | Proj | Game in minix system                           | 2nd  |
+| FEUP-MNUM                | MNUM    | TPS  | Exercises and algorithms of numberical methods | 2nd  |
+| Minesweeper              | LPOO    | Proj | Minesweeper game developed in java             | 2nd  |
+| open-cx-t4g2-codemasters | ESOF    | Proj | Application developed in flutter               | 3th  |
+| talpa                    | PLOG    | Proj | Talpa game developed in PROLOG language        | 3th  |
