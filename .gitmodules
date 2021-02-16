@@ -13,9 +13,6 @@
 [submodule "FEUP-AEDA-Proj"]
 	path = FEUP-AEDA-Proj
 	url = https://github.com/Jumaruba/FEUP-AEDA-Proj
-[submodule "FEUP-BDAD-Proj"]
-	path = FEUP-BDAD-Proj
-	url = https://github.com/Jumaruba/FEUP-BDAD-Proj
 [submodule "FEUP-SOPE-Proj2"]
 	path = FEUP-SOPE-Proj2
 	url = https://github.com/Jumaruba/FEUP-SOPE-Proj2
