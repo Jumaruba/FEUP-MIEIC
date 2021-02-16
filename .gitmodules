@@ -28,3 +28,6 @@
 [submodule "FEUP-LCOM20"]
 	path = FEUP-LCOM20
 	url = https://github.com/Jumaruba/FEUP-LCOM20
+[submodule "Minesweeper"]
+	path = Minesweeper
+	url = https://github.com/Jumaruba/Minesweeper
