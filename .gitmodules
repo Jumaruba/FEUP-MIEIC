@@ -1,0 +1,3 @@
+[submodule "FEUP-RCOM"]
+	path = FEUP-RCOM
+	url = https://github.com/Jumaruba/FEUP-RCOM
