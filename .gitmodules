@@ -31,3 +31,6 @@
 [submodule "Minesweeper"]
 	path = Minesweeper
 	url = https://github.com/Jumaruba/Minesweeper
+[submodule "wrong-products"]
+	path = wrong-products
+	url = https://github.com/Jumaruba/wrong-products
