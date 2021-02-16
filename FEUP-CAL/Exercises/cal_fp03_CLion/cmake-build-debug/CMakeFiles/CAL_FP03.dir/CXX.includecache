@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/julia/Documents/CAL/Exercises/cal_fp03_CLion/Tests/NearestPoints.cpp
+limits
+-
+thread
+-
+algorithm
+-
+cmath
+-
+NearestPoints.h
+C:/Users/julia/Documents/CAL/Exercises/cal_fp03_CLion/Tests/NearestPoints.h
+Point.h
+C:/Users/julia/Documents/CAL/Exercises/cal_fp03_CLion/Tests/Point.h
+
+C:/Users/julia/Documents/CAL/Exercises/cal_fp03_CLion/Tests/NearestPoints.h
+Point.h
+C:/Users/julia/Documents/CAL/Exercises/cal_fp03_CLion/Tests/Point.h
+
+C:/Users/julia/Documents/CAL/Exercises/cal_fp03_CLion/Tests/Point.h
+iostream
+-
+vector
+-
+

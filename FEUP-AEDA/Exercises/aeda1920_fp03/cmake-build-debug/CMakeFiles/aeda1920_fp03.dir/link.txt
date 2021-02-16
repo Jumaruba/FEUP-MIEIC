@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/aeda1920_fp03.dir/main.cpp.o CMakeFiles/aeda1920_fp03.dir/Tests/tests.cpp.o  -o aeda1920_fp03 lib/libgtestd.a lib/libgtest_maind.a lib/libgtestd.a -lpthread 

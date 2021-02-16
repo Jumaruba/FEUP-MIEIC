@@ -1,0 +1,8 @@
+CMake executable is incorrect Configure
+
+Cannot get compiler information:
+	Connection refused: connect
+	Connection refused: connect
+	Connection refused: connect
+	Connection refused: connect
+	Connection refused: connect

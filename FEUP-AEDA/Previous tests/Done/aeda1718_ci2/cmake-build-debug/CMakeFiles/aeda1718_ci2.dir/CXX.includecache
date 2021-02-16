@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/maruba/Documents/AEDA/Previous tests/Done/aeda1718_ci2/main.cpp
+iostream
+-
+bits/stdc++.h
+-
+

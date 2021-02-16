@@ -1,0 +1,3 @@
+/home/maruba/Documents/Cpp_programming/Projects/Project_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/maruba/Documents/Cpp_programming/Projects/Project_2/cmake-build-debug/CMakeFiles/project_2.dir
+/home/maruba/Documents/Cpp_programming/Projects/Project_2/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,43 @@
+<!-- This is an exercise to create a form--> 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Form</title>
+</head>
+<body>
+<form method="post" action="#">
+    <label for="name">Name: </label><input type="text" placeholder="type" name="name" required="required" id="name">
+    <label>
+        <input type="radio" name="age" value="18">18</label>
+    <label>
+           <input type="radio" name="age" value="19-35">19-35</label>
+    <label>
+        <input type="radio" name="age" value="36-48">36-48</label>
+    <label>
+        <input type="radio" name="age" value=">49">>49</label>
+    <label>
+    profession: <input type="text" placeholder="type" name="profession">
+    </label>
+    <label>
+    Country: <select name="country">
+        <option value="Portugal">Portugal</option>
+        <option value="Brasil">Brasil</option>
+        <option value="other">Other...</option>
+    </select>
+        <br></label>
+    <label>
+        <input type="checkbox" name="interests" value="Comida"> Comida <br> </label>
+    <label>
+        <input type="checkbox" name="interests" value="Ler"> Ler <br></label>
+    <label>
+        <input type="checkbox" name="interests" value="Gym"> Gym <br></label>
+    <label>
+    How did you find out about this website? <br>
+        <textarea name="how_found" rows="4" cols="40"></textarea></label>
+    <button name="submit" type="submit">Submit</button>
+</form>
+    </body>
+
+</html>

@@ -1,0 +1,134 @@
+
+:root {
+    --transition-time-menu: linear 0.15s;
+}
+
+nav#menu input {
+    display: none;
+
+}
+
+@media screen and (max-width: 60em) {
+
+    html {
+        width: 100%;
+        padding: 0;
+    }
+
+}
+
+/* The exercise says 30 em, but things to be strange at 40em*/
+@media (max-width: 40em) {
+    body {
+        display: flex;
+        flex-flow: column;
+        overflow-x: hidden;
+    }
+
+    aside {
+        display: none;
+    }
+
+
+    /* MENU ---------------------------------------------*/
+    nav#menu label:before {
+        content: "\2630";
+        color: white;
+        z-index: 1;
+        font-size: 1.2em;
+        background: #2A2F33;
+        display: inline-block; /* When the element is inline, if we use inline-block the effects of a block will take effect*/
+        width: 100%;
+        padding: 0.7em;
+        padding-block: 0.7rem;
+    }
+
+    nav#menu ul a {
+        margin-left: 1em;
+        font-weight: 500;
+    }
+
+
+    /* BEFORE checkbox marked*/
+    /* Hide the checkbox. */
+    #hamburger {
+        opacity: 0; /* Make the checkbox symbol disapear.*/
+        position: absolute; /* Eliminates the checkbox space.*/
+    }
+
+    #hamburger ~ ul {
+        height: 0;
+        flex-flow: column;
+        position: relative;
+        display: flex;
+        text-align: start;
+        background: #dedede;
+        transition: var(--transition-time-menu);
+    }
+
+    #hamburger ~ ul > li {
+        height: 0;
+        padding: 0;
+        border-left-width: 0.5rem;
+        border-top-width: 0;
+        opacity: 0;
+        transition: var(--transition-time-menu);
+    }
+
+
+    /* AFTER checkbox marked*/
+    nav#menu input:checked ~ label:before {
+        content: "\2715";
+        font-size: 1.6em; /* This value was found by errors and tries. */
+        padding: 0.7rem;
+    }
+
+    #hamburger:checked ~ ul {
+        height: 20em;
+        transition: var(--transition-time-menu);
+
+    }
+
+    #hamburger:checked ~ ul li {
+        border-left-width: 0.5rem;
+        border-top-width: 0;
+        opacity: initial;
+        padding: 0.5em;
+        height: 20em;
+        transition: var(--transition-time-menu);
+    }
+
+    /* OTHER configurations ---------------------------------------------*/
+    body > header:first-child h2 {
+        display: none;
+    }
+
+    body > header:first-child #signup {
+        float: none;
+    }
+
+    section#news {
+        margin-right: 0;
+    }
+
+    body > footer:last-child {
+        margin-right: 0;
+    }
+
+    #news header > h1 {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        background: #dedede;
+        margin: 0;
+        padding: 0.7em;
+
+    }
+
+    #news header h1 a {
+        text-shadow: none;
+        color: black;
+        font-size: large
+    }
+
+}

@@ -1,0 +1,23 @@
+Rui Manuel
+234987156
+4
+Rua Sem Fim/200/5Esq/1200001/Lisboa
+1; 3
+::::::::::
+Belmiro Miguel
+111987666
+2
+Avenida dos Grilos/100//2300 101/Coimbra
+1; 2 ; 6
+::::::::::
+Juliane
+123123123
+1
+1/2/asdssf/asdfds/asdfbfa
+1; 2 ; 3
+::::::::::
+Juliane
+123123123
+1
+1/2/asdssf/asdfds/asdfbfa
+1; 2 ; 3

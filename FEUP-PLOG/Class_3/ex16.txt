@@ -1,0 +1,7 @@
+a) 
+Function misterio will censor elements in an odd position. 
+It mean that a list like [1,2,3] would be [1,censurado,3] if called in the misterio function.   
+
+b) We need two conditions, because we don't know if the number of elements in the array is odd or even.
+
+

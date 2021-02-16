@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/untitled.dir/main.cpp.o CMakeFiles/untitled.dir/menu.cpp.o CMakeFiles/untitled.dir/agency.cpp.o CMakeFiles/untitled.dir/clients.cpp.o CMakeFiles/untitled.dir/aux.cpp.o CMakeFiles/untitled.dir/data.cpp.o CMakeFiles/untitled.dir/packs.cpp.o  -o untitled 
