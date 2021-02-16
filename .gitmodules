@@ -31,3 +31,6 @@
 [submodule "wrong-products"]
 	path = wrong-products
 	url = https://github.com/Jumaruba/wrong-products
+[submodule "FEUP-RCOM-Proj"]
+	path = FEUP-RCOM-Proj
+	url = https://github.com/Jumaruba/FEUP-RCOM-Proj
