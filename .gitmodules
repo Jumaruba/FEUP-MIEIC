@@ -1,3 +1,30 @@
 [submodule "FEUP-RCOM"]
 	path = FEUP-RCOM
 	url = https://github.com/Jumaruba/FEUP-RCOM
+[submodule "open-cx-t4g2-codemasters"]
+	path = open-cx-t4g2-codemasters
+	url = https://github.com/Jumaruba/open-cx-t4g2-codemasters
+[submodule "talpa"]
+	path = talpa
+	url = https://github.com/Jumaruba/talpa
+[submodule "FEUP-MNUM"]
+	path = FEUP-MNUM
+	url = https://github.com/Jumaruba/FEUP-MNUM
+[submodule "FEUP-CAL-Proj"]
+	path = FEUP-CAL-Proj
+	url = https://github.com/Jumaruba/FEUP-CAL-Proj
+[submodule "FEUP-AEDA-Proj"]
+	path = FEUP-AEDA-Proj
+	url = https://github.com/Jumaruba/FEUP-AEDA-Proj
+[submodule "FEUP-BDAD-Proj"]
+	path = FEUP-BDAD-Proj
+	url = https://github.com/Jumaruba/FEUP-BDAD-Proj
+[submodule "FEUP-SOPE-Proj2"]
+	path = FEUP-SOPE-Proj2
+	url = https://github.com/Jumaruba/FEUP-SOPE-Proj2
+[submodule "SOPE-proj1"]
+	path = SOPE-proj1
+	url = https://github.com/Jumaruba/SOPE-proj1
+[submodule "FEUP-LCOM20"]
+	path = FEUP-LCOM20
+	url = https://github.com/Jumaruba/FEUP-LCOM20
