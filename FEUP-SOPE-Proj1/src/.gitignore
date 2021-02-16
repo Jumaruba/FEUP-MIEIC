@@ -1,0 +1,3 @@
+output
+*.o
+src/directories_to_test.txt
