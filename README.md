@@ -12,8 +12,8 @@ However, some projects have its own repository and may not follow the convention
 
 | Name                     | Subject | Type | About                                          | Year |
 |--------------------------|---------|------|------------------------------------------------|------|
-| FEUP-LCOM20              | LCOM    | Proj | Game in minix system                           | 2nd  |
-| FEUP-MNUM                | MNUM    | TPS  | Exercises and algorithms of numberical methods | 2nd  |
-| Minesweeper              | LPOO    | Proj | Minesweeper game developed in java             | 2nd  |
-| open-cx-t4g2-codemasters | ESOF    | Proj | Application developed in flutter               | 3th  |
-| talpa                    | PLOG    | Proj | Talpa game developed in PROLOG language        | 3th  |
+| [FEUP-LCOM20](https://github.com/Jumaruba/FEUP-LCOM20/tree/27a6ea6df800eecc545fa9b4b01b8e7ec0b16ccc)              | LCOM    | Proj | Game in minix system                           | 2nd  |
+| [FEUP-MNUM](  https://github.com/Jumaruba/FEUP-MNUM/tree/3015343a650bf0f811b067770a5a348cd06eaaae)              | MNUM    | TPS  | Exercises and algorithms of numberical methods | 2nd  |
+| [Minesweeper](https://github.com/Jumaruba/Minesweeper/tree/d81cb19a85803e9059152e6573bd16bc3191a7a4)              | LPOO    | Proj | Minesweeper game developed in java             | 2nd  |
+| [open-cx-t4g2-codemasters](https://github.com/Jumaruba/open-cx-t4g2-codemasters/tree/fe00ba7db5de641359f4fdc333548b7636bbbfd7) | ESOF    | Proj | Application developed in flutter               | 3th  |
+| [talpa](https://github.com/Jumaruba/talpa/tree/acbc31a8a61c7d677e038771f7463cb4713852c3)                    | PLOG    | Proj | Talpa game developed in PROLOG language        | 3th  |
