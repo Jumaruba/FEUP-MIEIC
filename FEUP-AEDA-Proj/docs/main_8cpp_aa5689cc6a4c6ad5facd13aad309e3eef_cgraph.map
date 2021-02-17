@@ -1,0 +1,13 @@
+<map id="handleChangeNameWorker" name="handleChangeNameWorker">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,185,98"/>
+<area shape="rect" id="node2" href="$utils_8h.html#a517ab7f68319b35a52ed085490b0ae75" title="Checks if the input given is a number, not a string." alt="" coords="276,17,379,43"/>
+<area shape="rect" id="node4" href="$class_empresa.html#a5d331058a9294ca09275eb9b7810101d" title=" " alt="" coords="233,71,421,98"/>
+<area shape="rect" id="node11" href="$utils_8h.html#aa3b21853f890838c88d047d6c2786917" title="Function makes the user waits until it presses enter." alt="" coords="305,122,350,149"/>
+<area shape="rect" id="node3" href="$class_wrong_input__option.html#a5ad8a61deebc3b5a376c208cc915eabc" title="Get the Info parameter." alt="" coords="470,5,609,47"/>
+<area shape="rect" id="node5" href="$class_workers.html#a2a6be4529f5c7e06fc4fa2d9ce432ab1" title="Update the file Motoristas with the information in the BST." alt="" coords="469,71,609,98"/>
+<area shape="rect" id="node9" href="$class_workers.html#a1079f198f1d7a686fa4946e1422c58a4" title="Change the name of a Motorista." alt="" coords="474,134,605,161"/>
+<area shape="rect" id="node6" href="$class_motorista.html#a44fa665945fd0f5489d35386f3393b45" title="Get the number of hours until now." alt="" coords="657,7,793,34"/>
+<area shape="rect" id="node7" href="$class_motorista.html#a40ce5e736d18ae13ba331fd102ed1fdd" title="Get the name of the motorista." alt="" coords="657,58,793,85"/>
+<area shape="rect" id="node8" href="$class_motorista.html#a3d08ce5b8f2ab71073b204d3c3f47469" title=" " alt="" coords="667,109,784,135"/>
+<area shape="rect" id="node10" href="$class_motorista.html#a5f74e2ec104aec72748f1be2cc83014f" title="Change the name of the Motorista." alt="" coords="657,159,793,186"/>
+</map>

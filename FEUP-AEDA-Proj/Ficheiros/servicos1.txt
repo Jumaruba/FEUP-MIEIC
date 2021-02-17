@@ -1,0 +1,77 @@
+TESTE1
+20
+20
+TESTE2
+21
+21
+Congelado
+201800175
+20
+Medio
+1
+TESTE3
+20
+20
+TESTE
+21
+21
+Congelado
+201800149
+41
+Frio
+5 1
+TESTE2
+20
+20
+TESTE3
+21
+21
+Perigoso
+201800149
+20
+Inflamavel
+3
+Planet Vudacon
+20.3
+24.5
+Planet Albin
+24
+21
+Animal
+201800179
+24
+Grande
+4 6
+Planet Terra
+21.4
+22
+Planet Mars
+22
+22.6
+Perigoso
+201800180
+22
+Toxico
+3
+Jupiter
+21.4
+22
+Saturn
+20
+21
+Perigoso
+201800181
+45
+Inflamavel
+3
+Santo Ovidio
+20
+20
+Palacio de Cristal
+21
+21
+Congelado
+201800698
+10
+Medio
+5

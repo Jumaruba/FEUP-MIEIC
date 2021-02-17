@@ -1,0 +1,11 @@
+<map id="Header/Errors.h" name="Header/Errors.h">
+<area shape="rect" id="node1" title="This is the implementation and declaration of error classes." alt="" coords="179,5,293,32"/>
+<area shape="rect" id="node2" href="$_empresa_8h.html" title="It contains the Empresa class declarations, resposable for the management of the enterprise." alt="" coords="67,155,197,181"/>
+<area shape="rect" id="node7" href="$_motorista_8h.html" title="It contains the Class Motorista and Workers that manages the BST of workers." alt="" coords="170,80,302,107"/>
+<area shape="rect" id="node9" href="$_camiao_8cpp.html" title="It contains the implementation of the class Camiao and its sub&#45;classes." alt="" coords="327,80,463,107"/>
+<area shape="rect" id="node3" href="$utils_8h.html" title="Some functions that are useful in the project." alt="" coords="81,229,183,256"/>
+<area shape="rect" id="node4" href="$main_8cpp.html" title="This is the main page of the project that contains the implementation of it." alt="" coords="5,304,80,331"/>
+<area shape="rect" id="node6" href="$_empresa_8cpp.html" title="It contains the Empresa class implementation, resposable for the management of the enterprise." alt="" coords="208,229,352,256"/>
+<area shape="rect" id="node5" href="$utils_8cpp.html" title="Implementation of functions that are useful in the project." alt="" coords="105,304,221,331"/>
+<area shape="rect" id="node8" href="$_motorista_8cpp.html" title="It contains the implementation of the file Motorista.h." alt="" coords="221,155,368,181"/>
+</map>

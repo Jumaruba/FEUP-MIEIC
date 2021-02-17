@@ -1,0 +1,4 @@
+<map id="Base" name="Base">
+<area shape="rect" id="node1" title="Camiao Sub class for base products." alt="" coords="13,80,65,107"/>
+<area shape="rect" id="node2" href="$class_camiao.html" title="Class responsable for truck management." alt="" coords="5,5,72,32"/>
+</map>

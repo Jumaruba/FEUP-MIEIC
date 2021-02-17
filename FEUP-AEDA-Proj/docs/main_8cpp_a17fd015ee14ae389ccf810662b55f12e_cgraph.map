@@ -1,0 +1,9 @@
+<map id="handleAddTruck" name="handleAddTruck">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,120,133"/>
+<area shape="rect" id="node2" href="$class_empresa.html#adecbe6faf9d700e39b6ad5323b2db883" title="It adds a new truck to the enterprise." alt="" coords="171,5,317,32"/>
+<area shape="rect" id="node3" href="$utils_8h.html#a517ab7f68319b35a52ed085490b0ae75" title="Checks if the input given is a number, not a string." alt="" coords="193,56,295,83"/>
+<area shape="rect" id="node5" href="$utils_8h.html#ad54db2bec279be1d8c30400e2a1788f6" title=" " alt="" coords="197,107,291,133"/>
+<area shape="rect" id="node6" href="$class_empresa.html#a632509f2cb440b2ae5f27178c66cf2d6" title="rewrite the truck file" alt="" coords="168,157,320,184"/>
+<area shape="rect" id="node7" href="$utils_8h.html#aa3b21853f890838c88d047d6c2786917" title="Function makes the user waits until it presses enter." alt="" coords="221,208,267,235"/>
+<area shape="rect" id="node4" href="$class_wrong_input__option.html#a5ad8a61deebc3b5a376c208cc915eabc" title="Get the Info parameter." alt="" coords="368,74,507,115"/>
+</map>

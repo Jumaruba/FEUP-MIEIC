@@ -1,0 +1,4 @@
+<map id="Congelado" name="Congelado">
+<area shape="rect" id="node1" title="Camiao Truck with frozens as product." alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node2" href="$class_camiao.html" title="Class responsable for truck management." alt="" coords="13,5,80,32"/>
+</map>

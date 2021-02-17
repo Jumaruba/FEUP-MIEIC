@@ -1,0 +1,15 @@
+<map id="Empresa::SearchCli" name="Empresa::SearchCli">
+<area shape="rect" id="node1" title="Search for a client with nif given." alt="" coords="557,183,696,209"/>
+<area shape="rect" id="node2" href="$class_empresa.html#ab5a333dc8c915a4a5486a76fb7478522" title="Add a new client to the vector cli." alt="" coords="337,5,487,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a1ffdf0b6bbbe5ee7be5a28caa774049a" title=" " alt="" coords="143,56,259,83"/>
+<area shape="rect" id="node5" href="$class_empresa.html#ad6372389d7a306c8cec6e9081e735c63" title=" " alt="" coords="339,107,485,133"/>
+<area shape="rect" id="node6" href="$class_empresa.html#a13cff0896042ca81cdcfd6f7c28d7394" title="it changes the name of the client in the file and at the program" alt="" coords="317,157,507,184"/>
+<area shape="rect" id="node7" href="$class_empresa.html#ace3985f23eab4c1918ce3a0e2fa8021b" title="Display the clients information in a specific format." alt="" coords="315,208,509,235"/>
+<area shape="rect" id="node10" href="$class_empresa.html#a0a180803d6252ce2752fea0e7f5a1f5c" title="remove a client" alt="" coords="334,259,490,285"/>
+<area shape="rect" id="node11" href="$class_empresa.html#a34136c09c1e393449095e9ea0979376a" title="Adds a new service when it is requested by a client." alt="" coords="329,360,495,387"/>
+<area shape="rect" id="node13" href="$utils_8cpp.html#ad82614aca3f56dcf76ff82abb86cef03" title="It checks if the nif given is not a string and if there&#39;s a client with this nif." alt="" coords="365,309,459,336"/>
+<area shape="rect" id="node3" href="$class_empresa.html#ad08578b613594841b7c8c340ef970b26" title="Read information from clients.txt file and build the cli vector." alt="" coords="138,5,265,32"/>
+<area shape="rect" id="node8" href="$main_8cpp.html#a1dec0eb9ccb2d271a32c5ca77a7ef482" title=" " alt="" coords="136,247,267,273"/>
+<area shape="rect" id="node9" href="$main_8cpp.html#aa5ff31fc21c42a201a27a2dd4883c7cf" title=" " alt="" coords="5,247,88,273"/>
+<area shape="rect" id="node12" href="$main_8cpp.html#a002985b0a11b714de9f9f762203fd2bc" title=" " alt="" coords="139,335,264,361"/>
+</map>

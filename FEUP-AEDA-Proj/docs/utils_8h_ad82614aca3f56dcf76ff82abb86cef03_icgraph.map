@@ -1,0 +1,6 @@
+<map id="validClientNif" name="validClientNif">
+<area shape="rect" id="node1" title="It checks if the nif given is not a string and if there&#39;s a client with this nif." alt="" coords="315,31,409,57"/>
+<area shape="rect" id="node2" href="$main_8cpp.html#a002985b0a11b714de9f9f762203fd2bc" title=" " alt="" coords="139,5,264,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a1dec0eb9ccb2d271a32c5ca77a7ef482" title=" " alt="" coords="136,56,267,83"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#aa5ff31fc21c42a201a27a2dd4883c7cf" title=" " alt="" coords="5,56,88,83"/>
+</map>

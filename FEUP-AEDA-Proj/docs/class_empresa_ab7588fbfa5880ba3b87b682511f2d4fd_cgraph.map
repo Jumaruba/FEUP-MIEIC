@@ -1,0 +1,8 @@
+<map id="Empresa::removeMotorista" name="Empresa::removeMotorista">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,183,57"/>
+<area shape="rect" id="node2" href="$class_workers.html#a030ab46e0003f5df8a052df6ce338baf" title=" " alt="" coords="231,5,405,32"/>
+<area shape="rect" id="node3" href="$class_workers.html#a2a6be4529f5c7e06fc4fa2d9ce432ab1" title="Update the file Motoristas with the information in the BST." alt="" coords="248,56,388,83"/>
+<area shape="rect" id="node4" href="$class_motorista.html#a44fa665945fd0f5489d35386f3393b45" title="Get the number of hours until now." alt="" coords="453,5,589,32"/>
+<area shape="rect" id="node5" href="$class_motorista.html#a40ce5e736d18ae13ba331fd102ed1fdd" title="Get the name of the motorista." alt="" coords="453,56,589,83"/>
+<area shape="rect" id="node6" href="$class_motorista.html#a3d08ce5b8f2ab71073b204d3c3f47469" title=" " alt="" coords="463,107,580,133"/>
+</map>

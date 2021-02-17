@@ -1,0 +1,33 @@
+<map id="handleWorkersMenu" name="handleWorkersMenu">
+<area shape="rect" id="node1" title=" " alt="" coords="5,354,147,380"/>
+<area shape="rect" id="node2" href="$class_workers.html#a1a403b165764b5342d30bf5d7a1a6746" title="Search for Motorista with the specific nif." alt="" coords="685,34,820,60"/>
+<area shape="rect" id="node4" href="$utils_8h.html#a517ab7f68319b35a52ed085490b0ae75" title="Checks if the input given is a number, not a string." alt="" coords="469,126,571,152"/>
+<area shape="rect" id="node6" href="$utils_8h.html#ad54db2bec279be1d8c30400e2a1788f6" title=" " alt="" coords="473,75,567,102"/>
+<area shape="rect" id="node7" href="$utils_8h.html#a4953d1edcbbfc7e420c423ded1d5621a" title="Clear screen for both windows and linux." alt="" coords="237,379,333,406"/>
+<area shape="rect" id="node8" href="$class_empresa.html#aefc74a351bb2620871b6f60c00faff49" title=" " alt="" coords="199,430,371,456"/>
+<area shape="rect" id="node12" href="$class_empresa.html#a27426bea95b9150011fddaf8369c8fa3" title="get the workers BST, in order to use it&#39;s methods" alt="" coords="222,480,347,507"/>
+<area shape="rect" id="node13" href="$class_no_worker.html#a981c8d670e7b5c0a8a169b6fd01155fe" title="Get the Info parameter." alt="" coords="221,531,348,558"/>
+<area shape="rect" id="node14" href="$main_8cpp.html#ae5519eeb73ebb24af72c53c2dee66192" title=" " alt="" coords="222,328,347,355"/>
+<area shape="rect" id="node19" href="$utils_8h.html#aa3b21853f890838c88d047d6c2786917" title="Function makes the user waits until it presses enter." alt="" coords="497,227,543,254"/>
+<area shape="rect" id="node20" href="$main_8cpp.html#aa5689cc6a4c6ad5facd13aad309e3eef" title=" " alt="" coords="195,278,375,304"/>
+<area shape="rect" id="node25" href="$main_8cpp.html#a109e06aa6c8c81ed6367af4d613ead36" title=" " alt="" coords="211,176,359,203"/>
+<area shape="rect" id="node28" href="$_empresa_8h.html#acf7eac392af824cf133c3fcd2d4023b7" title="Header for list of workers." alt="" coords="217,582,352,608"/>
+<area shape="rect" id="node29" href="$main_8cpp.html#ae1c5e911db40aa67cff73790cd6f3bd2" title=" " alt="" coords="218,632,351,659"/>
+<area shape="rect" id="node30" href="$class_empresa.html#a3515eccfbbc49f59bc00feaadde4836e" title=" " alt="" coords="212,683,357,710"/>
+<area shape="rect" id="node3" href="$class_motorista.html#a3d08ce5b8f2ab71073b204d3c3f47469" title=" " alt="" coords="897,278,1015,304"/>
+<area shape="rect" id="node5" href="$class_wrong_input__option.html#a5ad8a61deebc3b5a376c208cc915eabc" title="Get the Info parameter." alt="" coords="683,93,822,134"/>
+<area shape="rect" id="node9" href="$class_workers.html#aadc9aa1b8af10546db8fa1f051f898df" title="Prints the content of the BST." alt="" coords="455,582,585,608"/>
+<area shape="rect" id="node10" href="$class_workers.html#a7998169c8b4513cbadd7ea9359c9f010" title=" " alt="" coords="423,632,617,659"/>
+<area shape="rect" id="node11" href="$class_workers.html#a6fb0066f48ae9abff07340f68e7f05d5" title="Prints the content of the BST by reverse order, so that the elements are in descending order of hours..." alt="" coords="428,531,612,558"/>
+<area shape="rect" id="node15" href="$class_empresa.html#a7bb41c231a4cb3bd17fd7c45ab8e859c" title=" " alt="" coords="441,430,599,456"/>
+<area shape="rect" id="node17" href="$class_motorista.html#a44fa665945fd0f5489d35386f3393b45" title="Get the number of hours until now." alt="" coords="888,506,1024,532"/>
+<area shape="rect" id="node18" href="$class_motorista.html#a40ce5e736d18ae13ba331fd102ed1fdd" title="Get the name of the motorista." alt="" coords="888,354,1024,380"/>
+<area shape="rect" id="node16" href="$class_workers.html#a8eba9f46cc6164f34272b64e8018cf0e" title=" " alt="" coords="675,480,830,507"/>
+<area shape="rect" id="node21" href="$class_empresa.html#a5d331058a9294ca09275eb9b7810101d" title=" " alt="" coords="426,328,614,355"/>
+<area shape="rect" id="node22" href="$class_workers.html#a2a6be4529f5c7e06fc4fa2d9ce432ab1" title="Update the file Motoristas with the information in the BST." alt="" coords="683,328,823,355"/>
+<area shape="rect" id="node23" href="$class_workers.html#a1079f198f1d7a686fa4946e1422c58a4" title="Change the name of a Motorista." alt="" coords="687,430,818,456"/>
+<area shape="rect" id="node24" href="$class_motorista.html#a5f74e2ec104aec72748f1be2cc83014f" title="Change the name of the Motorista." alt="" coords="888,430,1024,456"/>
+<area shape="rect" id="node26" href="$class_empresa.html#ab7588fbfa5880ba3b87b682511f2d4fd" title=" " alt="" coords="431,176,609,203"/>
+<area shape="rect" id="node27" href="$class_workers.html#a030ab46e0003f5df8a052df6ce338baf" title=" " alt="" coords="665,176,840,203"/>
+<area shape="rect" id="node31" href="$class_workers.html#a102ae62afb65309ab87c1554714c6d14" title="set hours to zero in all elements in the BST" alt="" coords="449,683,591,710"/>
+</map>

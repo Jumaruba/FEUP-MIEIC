@@ -1,0 +1,4 @@
+<map id="RepeatedClient" name="RepeatedClient">
+<area shape="rect" id="node1" title="Error case the client already exists." alt="" coords="5,80,116,107"/>
+<area shape="rect" id="node2" href="$class_error.html" title="Class made to throw types of errors." alt="" coords="35,5,86,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Servicos::cal_profitTime" name="Servicos::cal_profitTime">
+<area shape="rect" id="node1" title="Calculates the price according to the time of traveling, price of each camiao and the fixed tax." alt="" coords="181,5,340,32"/>
+<area shape="rect" id="node2" href="$class_servicos.html#a3d13785920b978659634b079bea2bed3" title="Constructor for Servicos." alt="" coords="5,5,133,32"/>
+</map>

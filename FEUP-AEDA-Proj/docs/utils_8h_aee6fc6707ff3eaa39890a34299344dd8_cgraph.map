@@ -1,0 +1,5 @@
+<map id="validServiceId" name="validServiceId">
+<area shape="rect" id="node1" title="It checks if the id given already exists and if it&#39;s not a string. Case wrong input,..." alt="" coords="5,31,104,57"/>
+<area shape="rect" id="node2" href="$class_no_service.html#a816792472ebcfa2ddcf042be2e32560d" title="Get the Info parameter." alt="" coords="160,5,287,32"/>
+<area shape="rect" id="node3" href="$class_empresa.html#ac5fbe498ebe030b3bf4a9e97f723733f" title="Search for a service with the id given." alt="" coords="152,56,295,83"/>
+</map>

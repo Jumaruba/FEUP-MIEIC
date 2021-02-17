@@ -1,0 +1,4 @@
+<map id="Animals" name="Animals">
+<area shape="rect" id="node1" title="Camiao Truck with animals as product." alt="" coords="5,80,75,107"/>
+<area shape="rect" id="node2" href="$class_camiao.html" title="Class responsable for truck management." alt="" coords="7,5,73,32"/>
+</map>

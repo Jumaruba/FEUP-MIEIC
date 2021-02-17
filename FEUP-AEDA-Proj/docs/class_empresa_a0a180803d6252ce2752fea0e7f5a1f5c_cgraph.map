@@ -1,0 +1,5 @@
+<map id="Empresa::removeClient" name="Empresa::removeClient">
+<area shape="rect" id="node1" title="remove a client" alt="" coords="5,31,161,57"/>
+<area shape="rect" id="node2" href="$class_empresa.html#a095eaafe3bd2c08914f8e0e7ab075f2e" title="this method rewrites all the clients. Usually this function is called when something has changed for ..." alt="" coords="209,5,369,32"/>
+<area shape="rect" id="node3" href="$class_empresa.html#a58a26bec368815a4608660af549855c1" title="Search for a client with nif given." alt="" coords="220,56,359,83"/>
+</map>

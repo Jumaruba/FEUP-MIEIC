@@ -1,0 +1,5 @@
+<map id="Empresa::display_CamiaoProfit" name="Empresa::display_CamiaoProfit">
+<area shape="rect" id="node1" title="display profit of each truck type" alt="" coords="5,31,209,57"/>
+<area shape="rect" id="node2" href="$class_empresa.html#ace12bc96868a933be6d46fbca56667c9" title="Get the profit of the month for a specific type o truck." alt="" coords="257,5,464,32"/>
+<area shape="rect" id="node3" href="$_empresa_8cpp.html#a8684d9489bb7b2a8f280ea590fd44ade" title="Header for list of trucks." alt="" coords="305,56,417,83"/>
+</map>

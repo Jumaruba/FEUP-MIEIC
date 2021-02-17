@@ -1,0 +1,6 @@
+<map id="getTimeNow" name="getTimeNow">
+<area shape="rect" id="node1" title="Gets today&#39;s day, month and year." alt="" coords="393,31,487,57"/>
+<area shape="rect" id="node2" href="$class_empresa.html#a34136c09c1e393449095e9ea0979376a" title="Adds a new service when it is requested by a client." alt="" coords="179,5,345,32"/>
+<area shape="rect" id="node4" href="$class_empresa.html#aa757c73a35881c8caacf63792f605e05" title="updates the hash tabl getting all inactive clients" alt="" coords="184,56,340,83"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a002985b0a11b714de9f9f762203fd2bc" title=" " alt="" coords="5,5,131,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Camiao" name="Camiao">
+<area shape="rect" id="node1" title="Class responsable for truck management." alt="" coords="137,5,204,32"/>
+<area shape="rect" id="node2" href="$class_animals.html" title="Camiao Truck with animals as product." alt="" coords="5,80,75,107"/>
+<area shape="rect" id="node3" href="$class_base.html" title="Camiao Sub class for base products." alt="" coords="99,80,151,107"/>
+<area shape="rect" id="node4" href="$class_congelado.html" title="Camiao Truck with frozens as product." alt="" coords="176,80,259,107"/>
+<area shape="rect" id="node5" href="$class_perigoso.html" title="Camiao Sub class that handles trucks with dangerous products." alt="" coords="283,80,357,107"/>
+</map>

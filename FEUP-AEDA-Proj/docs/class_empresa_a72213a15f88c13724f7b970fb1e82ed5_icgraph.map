@@ -1,0 +1,4 @@
+<map id="Empresa::getLucro_mes" name="Empresa::getLucro_mes">
+<area shape="rect" id="node1" title="Calculates the profit of the month." alt="" coords="244,5,408,32"/>
+<area shape="rect" id="node2" href="$class_empresa.html#a0a4b65451d3ba0ccce870d72a205e59b" title="Displays in a simple way the total profit of the month." alt="" coords="5,5,196,32"/>
+</map>

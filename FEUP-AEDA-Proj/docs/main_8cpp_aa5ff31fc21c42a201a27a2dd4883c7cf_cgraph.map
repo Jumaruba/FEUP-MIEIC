@@ -1,0 +1,25 @@
+<map id="mainMenu" name="mainMenu">
+<area shape="rect" id="node1" title=" " alt="" coords="5,171,88,198"/>
+<area shape="rect" id="node2" href="$utils_8h.html#ad54db2bec279be1d8c30400e2a1788f6" title=" " alt="" coords="365,13,459,39"/>
+<area shape="rect" id="node4" href="$utils_8h.html#a4953d1edcbbfc7e420c423ded1d5621a" title="Clear screen for both windows and linux." alt="" coords="364,63,460,90"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a1dec0eb9ccb2d271a32c5ca77a7ef482" title=" " alt="" coords="136,223,267,250"/>
+<area shape="rect" id="node23" href="$main_8cpp.html#af9dce1973196a5934ee5ec20ea417324" title=" " alt="" coords="148,274,255,301"/>
+<area shape="rect" id="node3" href="$class_wrong_input__option.html#a5ad8a61deebc3b5a376c208cc915eabc" title="Get the Info parameter." alt="" coords="559,5,698,47"/>
+<area shape="rect" id="node6" href="$_clientes_8h.html#a8b5f0e08ca83b98880dd9c4088702fe2" title="Compare the names of the clients." alt="" coords="319,434,505,461"/>
+<area shape="rect" id="node8" href="$_clientes_8h.html#a7caff369f6fb6d00238434a6ae5489d4" title="Compare the the client and compare the name." alt="" coords="333,485,491,511"/>
+<area shape="rect" id="node10" href="$_servicos_8h.html#ae76fd38f74b7cf7c13490f7dd9ccc882" title=" " alt="" coords="318,535,506,562"/>
+<area shape="rect" id="node13" href="$class_empresa.html#ace3985f23eab4c1918ce3a0e2fa8021b" title="Display the clients information in a specific format." alt="" coords="315,165,509,191"/>
+<area shape="rect" id="node15" href="$class_empresa.html#ac4d3ac24f3af716817284793d53e4edb" title=" " alt="" coords="327,216,497,257"/>
+<area shape="rect" id="node18" href="$main_8cpp.html#abefaa67c4ed81208b48e0dfef8f22aa7" title=" " alt="" coords="353,333,471,359"/>
+<area shape="rect" id="node19" href="$utils_8h.html#ad82614aca3f56dcf76ff82abb86cef03" title="It checks if the nif given is not a string and if there&#39;s a client with this nif." alt="" coords="365,114,459,141"/>
+<area shape="rect" id="node20" href="$utils_8h.html#aee6fc6707ff3eaa39890a34299344dd8" title="It checks if the id given already exists and if it&#39;s not a string. Case wrong input,..." alt="" coords="363,282,461,309"/>
+<area shape="rect" id="node22" href="$utils_8h.html#aa3b21853f890838c88d047d6c2786917" title="Function makes the user waits until it presses enter." alt="" coords="389,383,435,410"/>
+<area shape="rect" id="node7" href="$class_clientes.html#aded3c798699c93db43cf41f9bd67c751" title=" " alt="" coords="564,434,693,461"/>
+<area shape="rect" id="node9" href="$class_clientes.html#afd18e95e185ba72a752cd671c205fad2" title=" " alt="" coords="563,485,694,511"/>
+<area shape="rect" id="node11" href="$class_servicos.html#ae13c3186f8f5b687c00373d6e0c3a012" title=" " alt="" coords="571,586,686,613"/>
+<area shape="rect" id="node12" href="$class_servicos.html#abccba289bb598131f1848088783cfe0f" title=" " alt="" coords="563,535,695,562"/>
+<area shape="rect" id="node14" href="$class_empresa.html#a58a26bec368815a4608660af549855c1" title="Search for a client with nif given." alt="" coords="559,139,698,166"/>
+<area shape="rect" id="node16" href="$_empresa_8cpp.html#a009faec823cef34dd6e8b5fb580e7781" title="Header for list of services." alt="" coords="573,207,684,234"/>
+<area shape="rect" id="node17" href="$class_empresa.html#ac5fbe498ebe030b3bf4a9e97f723733f" title="Search for a service with the id given." alt="" coords="557,258,700,285"/>
+<area shape="rect" id="node21" href="$class_no_service.html#a816792472ebcfa2ddcf042be2e32560d" title="Get the Info parameter." alt="" coords="565,309,692,335"/>
+</map>

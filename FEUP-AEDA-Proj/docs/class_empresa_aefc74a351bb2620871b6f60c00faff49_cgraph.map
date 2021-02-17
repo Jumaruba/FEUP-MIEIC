@@ -1,0 +1,6 @@
+<map id="Empresa::displayWorkers" name="Empresa::displayWorkers">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,177,83"/>
+<area shape="rect" id="node2" href="$class_workers.html#aadc9aa1b8af10546db8fa1f051f898df" title="Prints the content of the BST." alt="" coords="258,5,387,32"/>
+<area shape="rect" id="node3" href="$class_workers.html#a7998169c8b4513cbadd7ea9359c9f010" title=" " alt="" coords="225,56,420,83"/>
+<area shape="rect" id="node4" href="$class_workers.html#a6fb0066f48ae9abff07340f68e7f05d5" title="Prints the content of the BST by reverse order, so that the elements are in descending order of hours..." alt="" coords="231,107,415,133"/>
+</map>

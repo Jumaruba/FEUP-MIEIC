@@ -1,0 +1,4 @@
+<map id="Empresa::removeTruck" name="Empresa::removeTruck">
+<area shape="rect" id="node1" title="remove the truck from the enterprise" alt="" coords="5,5,160,32"/>
+<area shape="rect" id="node2" href="$class_empresa.html#a632509f2cb440b2ae5f27178c66cf2d6" title="rewrite the truck file" alt="" coords="208,5,360,32"/>
+</map>

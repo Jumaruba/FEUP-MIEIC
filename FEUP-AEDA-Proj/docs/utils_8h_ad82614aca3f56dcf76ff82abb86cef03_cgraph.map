@@ -1,0 +1,4 @@
+<map id="validClientNif" name="validClientNif">
+<area shape="rect" id="node1" title="It checks if the nif given is not a string and if there&#39;s a client with this nif." alt="" coords="5,5,100,32"/>
+<area shape="rect" id="node2" href="$class_empresa.html#a58a26bec368815a4608660af549855c1" title="Search for a client with nif given." alt="" coords="148,5,287,32"/>
+</map>

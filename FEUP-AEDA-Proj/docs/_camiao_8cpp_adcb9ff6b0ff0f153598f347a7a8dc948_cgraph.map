@@ -1,0 +1,5 @@
+<map id="Compare" name="Compare">
+<area shape="rect" id="node1" title="It compares two trucks." alt="" coords="5,31,80,57"/>
+<area shape="rect" id="node2" href="$class_camiao.html#a5dd97aff932b9e25f58d00b188c69de1" title="Get the Carga Max parameter." alt="" coords="128,5,279,32"/>
+<area shape="rect" id="node3" href="$class_camiao.html#a47665f15730ea1880b9cc0fead5798f9" title="Get the Profit parameter." alt="" coords="142,56,265,83"/>
+</map>

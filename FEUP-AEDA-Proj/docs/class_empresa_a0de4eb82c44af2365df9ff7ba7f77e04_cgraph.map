@@ -1,0 +1,4 @@
+<map id="Empresa::reAcceptClient" name="Empresa::reAcceptClient">
+<area shape="rect" id="node1" title="Reaccept a ex&#45;client into the enterprise After being excluded from the enterprise the client might wa..." alt="" coords="5,5,172,32"/>
+<area shape="rect" id="node2" href="$class_empresa.html#a095eaafe3bd2c08914f8e0e7ab075f2e" title="this method rewrites all the clients. Usually this function is called when something has changed for ..." alt="" coords="220,5,380,32"/>
+</map>

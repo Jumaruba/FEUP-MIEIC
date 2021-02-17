@@ -1,0 +1,6 @@
+<map id="Workshop::get_unavailability" name="Workshop::get_unavailability">
+<area shape="rect" id="node1" title="Gets the unavailability of the workshop." alt="" coords="259,56,445,83"/>
+<area shape="rect" id="node2" href="$class_workshop.html#a260958c790b4149c40f4d443fec8979e" title="Order workshops in ascending order of unavailability." alt="" coords="36,5,180,32"/>
+<area shape="rect" id="node3" href="$class_camiao.html#ac8331f1cde5cfb04a072862ab852121b" title="Request generic service for this truck; keep in mind hat generic services require only the earliest a..." alt="" coords="6,56,210,83"/>
+<area shape="rect" id="node4" href="$class_camiao.html#a0260cf6703d3569e2d420d72d17846f7" title="Request specific service for this truck; keep in mind hat specific services require the earliest avai..." alt="" coords="5,107,211,133"/>
+</map>

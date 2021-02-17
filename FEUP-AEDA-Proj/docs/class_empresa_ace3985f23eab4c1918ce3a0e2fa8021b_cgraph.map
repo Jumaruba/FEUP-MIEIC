@@ -1,0 +1,4 @@
+<map id="Empresa::display_clientesInfo" name="Empresa::display_clientesInfo">
+<area shape="rect" id="node1" title="Display the clients information in a specific format." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="node2" href="$class_empresa.html#a58a26bec368815a4608660af549855c1" title="Search for a client with nif given." alt="" coords="248,5,387,32"/>
+</map>

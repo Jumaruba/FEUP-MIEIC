@@ -1,0 +1,6 @@
+<map id="NoService::getInfo" name="NoService::getInfo">
+<area shape="rect" id="node1" title="Get the Info parameter." alt="" coords="461,5,588,32"/>
+<area shape="rect" id="node2" href="$utils_8cpp.html#aee6fc6707ff3eaa39890a34299344dd8" title="It checks if the id given already exists and if it&#39;s not a string. Case wrong input,..." alt="" coords="315,5,413,32"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a1dec0eb9ccb2d271a32c5ca77a7ef482" title=" " alt="" coords="136,5,267,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#aa5ff31fc21c42a201a27a2dd4883c7cf" title=" " alt="" coords="5,5,88,32"/>
+</map>

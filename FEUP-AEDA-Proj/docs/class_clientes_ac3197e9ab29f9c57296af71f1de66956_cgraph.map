@@ -1,0 +1,4 @@
+<map id="Clientes::getDate" name="Clientes::getDate">
+<area shape="rect" id="node1" title="Get the date from the last request." alt="" coords="5,5,128,32"/>
+<area shape="rect" id="node2" href="$class_date.html#ac33192f734973548e97e9b5d8da44a5b" title="gets the date in string format" alt="" coords="176,5,279,32"/>
+</map>

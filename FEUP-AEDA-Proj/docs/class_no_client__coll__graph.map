@@ -1,0 +1,4 @@
+<map id="NoClient" name="NoClient">
+<area shape="rect" id="node1" title="Error case the client doens&#39;t exist." alt="" coords="5,80,76,107"/>
+<area shape="rect" id="node2" href="$class_error.html" title="Class made to throw types of errors." alt="" coords="15,5,66,32"/>
+</map>

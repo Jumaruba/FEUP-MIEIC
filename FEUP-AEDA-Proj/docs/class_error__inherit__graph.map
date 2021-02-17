@@ -1,0 +1,9 @@
+<map id="Error" name="Error">
+<area shape="rect" id="node1" title="Class made to throw types of errors." alt="" coords="291,5,341,32"/>
+<area shape="rect" id="node2" href="$class_empty_queue.html" title=" " alt="" coords="5,80,104,107"/>
+<area shape="rect" id="node3" href="$class_no_client.html" title="Error case the client doens&#39;t exist." alt="" coords="129,80,199,107"/>
+<area shape="rect" id="node4" href="$class_no_service.html" title="Error case the service doesn&#39;t exist." alt="" coords="224,80,304,107"/>
+<area shape="rect" id="node5" href="$class_no_worker.html" title=" " alt="" coords="328,80,408,107"/>
+<area shape="rect" id="node6" href="$class_repeated_client.html" title="Error case the client already exists." alt="" coords="433,80,543,107"/>
+<area shape="rect" id="node7" href="$class_wrong_input__option.html" title="Error for wrong inputs." alt="" coords="568,80,699,107"/>
+</map>

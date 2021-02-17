@@ -1,0 +1,5 @@
+<map id="Camiao::requestGenericService" name="Camiao::requestGenericService">
+<area shape="rect" id="node1" title="Request generic service for this truck; keep in mind hat generic services require only the earliest a..." alt="" coords="5,31,209,57"/>
+<area shape="rect" id="node2" href="$class_workshop.html#a20935254d6cee7efb64075ff7a67a120" title="Gets the unavailability of the workshop." alt="" coords="257,5,444,32"/>
+<area shape="rect" id="node3" href="$class_workshop.html#a4beab6268762886e7a5f4b6ac7fc2cf0" title="Sets the unavailability of the workshop." alt="" coords="289,56,412,83"/>
+</map>

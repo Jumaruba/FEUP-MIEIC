@@ -1,0 +1,15 @@
+<map id="Motorista::getHours" name="Motorista::getHours">
+<area shape="rect" id="node1" title="Get the number of hours until now." alt="" coords="885,107,1021,133"/>
+<area shape="rect" id="node2" href="$class_workers.html#a73d66724649c7e10df6d3baac00df5c6" title=" " alt="" coords="659,5,837,32"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae5519eeb73ebb24af72c53c2dee66192" title=" " alt="" coords="454,81,579,108"/>
+<area shape="rect" id="node7" href="$class_motorista.html#a1d738b913d35e4d451cc1007aa66cbdb" title="Organized by growing order of hours." alt="" coords="679,107,817,133"/>
+<area shape="rect" id="node8" href="$_motorista_8cpp.html#a50558bd167c60ece0454bd5938990451" title=" " alt="" coords="705,157,791,184"/>
+<area shape="rect" id="node9" href="$class_workers.html#a2a6be4529f5c7e06fc4fa2d9ce432ab1" title="Update the file Motoristas with the information in the BST." alt="" coords="678,208,818,235"/>
+<area shape="rect" id="node3" href="$class_empresa.html#a05ed3f13c73ab623ade0622891e0cbe9" title=" " alt="" coords="426,5,607,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#a002985b0a11b714de9f9f762203fd2bc" title=" " alt="" coords="222,5,347,32"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#a7703598baa1a385894615b786f9cf9e9" title=" " alt="" coords="5,157,147,184"/>
+<area shape="rect" id="node10" href="$class_empresa.html#ab7588fbfa5880ba3b87b682511f2d4fd" title=" " alt="" coords="428,157,605,184"/>
+<area shape="rect" id="node12" href="$class_empresa.html#a5d331058a9294ca09275eb9b7810101d" title=" " alt="" coords="423,208,611,235"/>
+<area shape="rect" id="node11" href="$main_8cpp.html#a109e06aa6c8c81ed6367af4d613ead36" title=" " alt="" coords="211,157,359,184"/>
+<area shape="rect" id="node13" href="$main_8cpp.html#aa5689cc6a4c6ad5facd13aad309e3eef" title=" " alt="" coords="195,208,375,235"/>
+</map>

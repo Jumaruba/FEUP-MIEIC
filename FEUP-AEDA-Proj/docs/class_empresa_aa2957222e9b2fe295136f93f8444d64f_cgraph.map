@@ -1,0 +1,11 @@
+<map id="Empresa::allocateCamiao" name="Empresa::allocateCamiao">
+<area shape="rect" id="node1" title="Choose trucks to be allocated to a service." alt="" coords="5,132,176,159"/>
+<area shape="rect" id="node2" href="$class_servicos.html#acb65e3d707266711fb371f7e4844e6f9" title=" " alt="" coords="224,56,368,83"/>
+<area shape="rect" id="node5" href="$_camiao_8h.html#adcb9ff6b0ff0f153598f347a7a8dc948" title="It compares two trucks." alt="" coords="259,107,333,133"/>
+<area shape="rect" id="node8" href="$class_servicos.html#a9bdc419f4897edf417c0a00af357c2f2" title="Get the actual storage." alt="" coords="228,157,364,184"/>
+<area shape="rect" id="node9" href="$class_servicos.html#a421807c0764d402bf698c8d79a794102" title=" " alt="" coords="233,208,359,235"/>
+<area shape="rect" id="node3" href="$class_camiao.html#adc6e47bbab46967157e5f9f36e91d6d0" title="Compute that the truck was added to a service and then increase it&#39;s total Profit." alt="" coords="416,5,581,32"/>
+<area shape="rect" id="node4" href="$class_camiao.html#a7a7aab0bfd239fb50c41ed42db6bcc88" title=" " alt="" coords="629,31,760,57"/>
+<area shape="rect" id="node6" href="$class_camiao.html#a5dd97aff932b9e25f58d00b188c69de1" title="Get the Carga Max parameter." alt="" coords="423,107,574,133"/>
+<area shape="rect" id="node7" href="$class_camiao.html#a47665f15730ea1880b9cc0fead5798f9" title="Get the Profit parameter." alt="" coords="437,157,560,184"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="Header/Local.h" name="Header/Local.h">
+<area shape="rect" id="node1" title="File with the declaration of Local class reponsable to handle the location of the services." alt="" coords="525,5,634,32"/>
+<area shape="rect" id="node2" href="$_servicos_8h.html" title="Declarations of Servicos class responsable for handle the services (individualy)" alt="" coords="441,80,568,107"/>
+<area shape="rect" id="node11" href="$_local_8cpp.html" title="File with the implementation of Local class reponsable to handle the location of the services." alt="" coords="593,80,715,107"/>
+<area shape="rect" id="node3" href="$_clientes_8h.html" title="It contais the declarations of class Clientes responsable for Clients management." alt="" coords="362,155,487,181"/>
+<area shape="rect" id="node4" href="$_empresa_8h.html" title="It contains the Empresa class declarations, resposable for the management of the enterprise." alt="" coords="197,229,327,256"/>
+<area shape="rect" id="node6" href="$main_8cpp.html" title="This is the main page of the project that contains the implementation of it." alt="" coords="239,379,314,405"/>
+<area shape="rect" id="node10" href="$_servicos_8cpp.html" title="Implementation of Servicos class responsable for handle the services (individualy)" alt="" coords="622,155,763,181"/>
+<area shape="rect" id="node9" href="$_clientes_8cpp.html" title="It contais the implementation of class Clientes responsable for Clients management." alt="" coords="409,229,547,256"/>
+<area shape="rect" id="node5" href="$utils_8h.html" title="Some functions that are useful in the project." alt="" coords="12,304,115,331"/>
+<area shape="rect" id="node8" href="$_empresa_8cpp.html" title="It contains the Empresa class implementation, resposable for the management of the enterprise." alt="" coords="190,304,334,331"/>
+<area shape="rect" id="node7" href="$utils_8cpp.html" title="Implementation of functions that are useful in the project." alt="" coords="5,379,121,405"/>
+</map>

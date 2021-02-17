@@ -1,0 +1,7 @@
+<map id="Empresa::allocateMotorista" name="Empresa::allocateMotorista">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,187,83"/>
+<area shape="rect" id="node2" href="$class_workers.html#a73d66724649c7e10df6d3baac00df5c6" title=" " alt="" coords="235,56,413,83"/>
+<area shape="rect" id="node3" href="$class_motorista.html#a44fa665945fd0f5489d35386f3393b45" title="Get the number of hours until now." alt="" coords="461,5,597,32"/>
+<area shape="rect" id="node4" href="$class_motorista.html#a40ce5e736d18ae13ba331fd102ed1fdd" title="Get the name of the motorista." alt="" coords="461,56,597,83"/>
+<area shape="rect" id="node5" href="$class_motorista.html#a8400f01e9fae2708c83ae8ee34e1dac1" title=" " alt="" coords="461,107,597,133"/>
+</map>

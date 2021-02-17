@@ -1,0 +1,7 @@
+<map id="Empresa::SearchSer" name="Empresa::SearchSer">
+<area shape="rect" id="node1" title="Search for a service with the id given." alt="" coords="533,42,676,69"/>
+<area shape="rect" id="node2" href="$class_empresa.html#ac4d3ac24f3af716817284793d53e4edb" title=" " alt="" coords="315,5,485,47"/>
+<area shape="rect" id="node5" href="$utils_8cpp.html#aee6fc6707ff3eaa39890a34299344dd8" title="It checks if the id given already exists and if it&#39;s not a string. Case wrong input,..." alt="" coords="351,71,449,98"/>
+<area shape="rect" id="node3" href="$main_8cpp.html#a1dec0eb9ccb2d271a32c5ca77a7ef482" title=" " alt="" coords="136,42,267,69"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#aa5ff31fc21c42a201a27a2dd4883c7cf" title=" " alt="" coords="5,42,88,69"/>
+</map>

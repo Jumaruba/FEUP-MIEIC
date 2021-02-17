@@ -1,0 +1,7 @@
+<map id="Camiao::addedToService" name="Camiao::addedToService">
+<area shape="rect" id="node1" title="Compute that the truck was added to a service and then increase it&#39;s total Profit." alt="" coords="589,42,755,69"/>
+<area shape="rect" id="node2" href="$class_servicos.html#acb65e3d707266711fb371f7e4844e6f9" title=" " alt="" coords="397,42,541,69"/>
+<area shape="rect" id="node3" href="$class_empresa.html#a4e727d2a339654602a9331880f5351c9" title="Add a truck to a specific service based on its id." alt="" coords="185,5,343,47"/>
+<area shape="rect" id="node4" href="$class_empresa.html#aa2957222e9b2fe295136f93f8444d64f" title="Choose trucks to be allocated to a service." alt="" coords="179,71,349,98"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#a002985b0a11b714de9f9f762203fd2bc" title=" " alt="" coords="5,71,131,98"/>
+</map>

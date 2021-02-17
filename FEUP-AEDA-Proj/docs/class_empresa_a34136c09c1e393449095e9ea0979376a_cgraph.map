@@ -1,0 +1,6 @@
+<map id="Empresa::requestService" name="Empresa::requestService">
+<area shape="rect" id="node1" title="Adds a new service when it is requested by a client." alt="" coords="5,56,172,83"/>
+<area shape="rect" id="node2" href="$_date_8h.html#a2c828a47d280233fb6a0dfef0f25165c" title="Gets today&#39;s day, month and year." alt="" coords="253,5,347,32"/>
+<area shape="rect" id="node3" href="$class_empresa.html#a095eaafe3bd2c08914f8e0e7ab075f2e" title="this method rewrites all the clients. Usually this function is called when something has changed for ..." alt="" coords="220,56,380,83"/>
+<area shape="rect" id="node4" href="$class_empresa.html#a58a26bec368815a4608660af549855c1" title="Search for a client with nif given." alt="" coords="231,107,369,133"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Camiao::requestSpecificService" name="Camiao::requestSpecificService">
+<area shape="rect" id="node1" title="Request specific service for this truck; keep in mind hat specific services require the earliest avai..." alt="" coords="5,31,211,57"/>
+<area shape="rect" id="node2" href="$class_workshop.html#a20935254d6cee7efb64075ff7a67a120" title="Gets the unavailability of the workshop." alt="" coords="259,5,445,32"/>
+<area shape="rect" id="node3" href="$class_workshop.html#a4beab6268762886e7a5f4b6ac7fc2cf0" title="Sets the unavailability of the workshop." alt="" coords="291,56,413,83"/>
+</map>

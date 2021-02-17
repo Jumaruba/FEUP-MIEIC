@@ -1,0 +1,29 @@
+<map id="handleAddService" name="handleAddService">
+<area shape="rect" id="node1" title=" " alt="" coords="5,411,131,437"/>
+<area shape="rect" id="node2" href="$class_empresa.html#aa2957222e9b2fe295136f93f8444d64f" title="Choose trucks to be allocated to a service." alt="" coords="184,157,355,184"/>
+<area shape="rect" id="node11" href="$class_empresa.html#a05ed3f13c73ab623ade0622891e0cbe9" title=" " alt="" coords="179,233,360,260"/>
+<area shape="rect" id="node16" href="$class_servicos.html#ae00c9c64e9d9e53be5513251c75ed999" title="Calculates the time of traveling according to geographic cordenates of the arrival and departure." alt="" coords="200,284,339,311"/>
+<area shape="rect" id="node17" href="$utils_8h.html#a517ab7f68319b35a52ed085490b0ae75" title="Checks if the input given is a number, not a string." alt="" coords="218,335,321,361"/>
+<area shape="rect" id="node19" href="$utils_8h.html#ad54db2bec279be1d8c30400e2a1788f6" title=" " alt="" coords="222,385,317,412"/>
+<area shape="rect" id="node20" href="$utils_8h.html#a4953d1edcbbfc7e420c423ded1d5621a" title="Clear screen for both windows and linux." alt="" coords="221,436,317,463"/>
+<area shape="rect" id="node21" href="$class_servicos.html#ae8781ba7133069c9c67de9b920aafea2" title=" " alt="" coords="193,487,346,513"/>
+<area shape="rect" id="node22" href="$class_empresa.html#a34136c09c1e393449095e9ea0979376a" title="Adds a new service when it is requested by a client." alt="" coords="186,537,353,564"/>
+<area shape="rect" id="node26" href="$utils_8h.html#ad82614aca3f56dcf76ff82abb86cef03" title="It checks if the nif given is not a string and if there&#39;s a client with this nif." alt="" coords="222,588,317,615"/>
+<area shape="rect" id="node27" href="$utils_8h.html#aa3b21853f890838c88d047d6c2786917" title="Function makes the user waits until it presses enter." alt="" coords="247,639,292,665"/>
+<area shape="rect" id="node3" href="$class_servicos.html#acb65e3d707266711fb371f7e4844e6f9" title=" " alt="" coords="425,56,569,83"/>
+<area shape="rect" id="node6" href="$_camiao_8h.html#adcb9ff6b0ff0f153598f347a7a8dc948" title="It compares two trucks." alt="" coords="460,107,535,133"/>
+<area shape="rect" id="node9" href="$class_servicos.html#a9bdc419f4897edf417c0a00af357c2f2" title="Get the actual storage." alt="" coords="429,157,565,184"/>
+<area shape="rect" id="node10" href="$class_servicos.html#a421807c0764d402bf698c8d79a794102" title=" " alt="" coords="435,208,560,235"/>
+<area shape="rect" id="node4" href="$class_camiao.html#adc6e47bbab46967157e5f9f36e91d6d0" title="Compute that the truck was added to a service and then increase it&#39;s total Profit." alt="" coords="635,5,800,32"/>
+<area shape="rect" id="node5" href="$class_camiao.html#a7a7aab0bfd239fb50c41ed42db6bcc88" title=" " alt="" coords="848,31,979,57"/>
+<area shape="rect" id="node7" href="$class_camiao.html#a5dd97aff932b9e25f58d00b188c69de1" title="Get the Carga Max parameter." alt="" coords="642,107,793,133"/>
+<area shape="rect" id="node8" href="$class_camiao.html#a47665f15730ea1880b9cc0fead5798f9" title="Get the Profit parameter." alt="" coords="656,157,779,184"/>
+<area shape="rect" id="node12" href="$class_workers.html#a73d66724649c7e10df6d3baac00df5c6" title=" " alt="" coords="408,259,587,285"/>
+<area shape="rect" id="node13" href="$class_motorista.html#a44fa665945fd0f5489d35386f3393b45" title="Get the number of hours until now." alt="" coords="649,208,785,235"/>
+<area shape="rect" id="node14" href="$class_motorista.html#a40ce5e736d18ae13ba331fd102ed1fdd" title="Get the name of the motorista." alt="" coords="649,259,785,285"/>
+<area shape="rect" id="node15" href="$class_motorista.html#a8400f01e9fae2708c83ae8ee34e1dac1" title=" " alt="" coords="649,309,785,336"/>
+<area shape="rect" id="node18" href="$class_wrong_input__option.html#a5ad8a61deebc3b5a376c208cc915eabc" title="Get the Info parameter." alt="" coords="428,353,567,394"/>
+<area shape="rect" id="node23" href="$_date_8h.html#a2c828a47d280233fb6a0dfef0f25165c" title="Gets today&#39;s day, month and year." alt="" coords="451,487,544,513"/>
+<area shape="rect" id="node24" href="$class_empresa.html#a095eaafe3bd2c08914f8e0e7ab075f2e" title="this method rewrites all the clients. Usually this function is called when something has changed for ..." alt="" coords="417,537,577,564"/>
+<area shape="rect" id="node25" href="$class_empresa.html#a58a26bec368815a4608660af549855c1" title="Search for a client with nif given." alt="" coords="428,588,567,615"/>
+</map>
