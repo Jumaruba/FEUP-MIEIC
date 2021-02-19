@@ -1,7 +1,6 @@
 options
 {
     LOOKAHEAD=2;
-    DEBUG_PARSER = true;
 }
 
 
@@ -68,19 +67,19 @@ SimpleNode Expression(): {Token sym, value; }
 void Expr1(int sign) #void: {}
 {
     Expr2(sign)
-   (
+    [
         ( "+" Expr2(sign) #Add(2)
         | "-" Expr2(sign) #Sub(2))
-   )*
+    ]
 }
 
 void Expr2(int sign) #void: {}
 {
     Expr3(sign)
-   (
+    [
         ( "*" Expr3(1) #Mul(2)
         | "/" Expr3(1) #Div(2))
-   )*
+    ]
 }
 
 void Expr3(int sign) #void: {Token t;}
