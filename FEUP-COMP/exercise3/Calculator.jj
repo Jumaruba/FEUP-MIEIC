@@ -102,7 +102,7 @@ SimpleNode Expression(): {/*@bgen(jjtree) Expression */
 void Expr1(int sign)      : {}
 {
     Expr2(sign)
-    [
+   (
         ( "+"/*@bgen(jjtree) #Add( 2) */
               {
                 SimpleNode jjtn001 = new SimpleNode(JJTADD);
@@ -159,13 +159,13 @@ void Expr1(int sign)      : {}
                 }
               }
 /*@egen*/        )
-    ]
+   )*
 }
 
 void Expr2(int sign)      : {}
 {
     Expr3(sign)
-    [
+   (
         ( "*"/*@bgen(jjtree) #Mul( 2) */
               {
                 SimpleNode jjtn001 = new SimpleNode(JJTMUL);
@@ -222,7 +222,7 @@ void Expr2(int sign)      : {}
                 }
               }
 /*@egen*/        )
-    ]
+   )*
 }
 
 void Expr3(int sign)      : {Token t;}
