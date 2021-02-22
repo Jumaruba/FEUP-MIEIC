@@ -34,6 +34,28 @@ public class Calculator/*@bgen(jjtree)*/implements CalculatorTreeConstants, Calc
         return 0;
     }
 
+  static void error_skipto(int kind) throws ParseException {/*@bgen(jjtree) error_skipto */
+SimpleNode jjtn000 = new SimpleNode(JJTERROR_SKIPTO);
+boolean jjtc000 = true;
+jjtree.openNodeScope(jjtn000);
+try {ParseException e = generateParseException();  // generate the exception object
+   System.out.println(e.toString());  // print the error message
+   Token t;
+   // consume tokens all the way up to a token of "kind" - use a do-while loop
+   // rather than a while because the current token is the one immediately before
+   // the erroneous token (in our case the token immediately before what should
+   // have been "if"/"while".
+   do {
+     t = getNextToken();
+   }
+   while (t.kind != kind);/*@bgen(jjtree)*/
+} finally {
+  if (jjtc000) {
+    jjtree.closeNodeScope(jjtn000, true);
+  }
+}
+  }
+
   static final public SimpleNode Expression() throws ParseException {/*@bgen(jjtree) Expression */
                           SimpleNode jjtn000 = new SimpleNode(JJTEXPRESSION);
                           boolean jjtc000 = true;
@@ -87,54 +109,54 @@ if (jjtc000) {
       if (jj_2_2(2)) {
         jj_consume_token(9);
 SimpleNode jjtn001 = new SimpleNode(JJTADD);
-                boolean jjtc001 = true;
-                jjtree.openNodeScope(jjtn001);
+                    boolean jjtc001 = true;
+                    jjtree.openNodeScope(jjtn001);
         try {
           Expr2(sign);
         } catch (Throwable jjte001) {
 if (jjtc001) {
-                  jjtree.clearNodeScope(jjtn001);
-                  jjtc001 = false;
-                } else {
-                  jjtree.popNode();
-                }
-                if (jjte001 instanceof RuntimeException) {
-                  {if (true) throw (RuntimeException)jjte001;}
-                }
-                if (jjte001 instanceof ParseException) {
-                  {if (true) throw (ParseException)jjte001;}
-                }
-                {if (true) throw (Error)jjte001;}
+                      jjtree.clearNodeScope(jjtn001);
+                      jjtc001 = false;
+                    } else {
+                      jjtree.popNode();
+                    }
+                    if (jjte001 instanceof RuntimeException) {
+                      {if (true) throw (RuntimeException)jjte001;}
+                    }
+                    if (jjte001 instanceof ParseException) {
+                      {if (true) throw (ParseException)jjte001;}
+                    }
+                    {if (true) throw (Error)jjte001;}
         } finally {
 if (jjtc001) {
-                  jjtree.closeNodeScope(jjtn001,  2);
-                }
+                      jjtree.closeNodeScope(jjtn001,  2);
+                    }
         }
       } else if (jj_2_3(2)) {
         jj_consume_token(10);
 SimpleNode jjtn002 = new SimpleNode(JJTSUB);
-                boolean jjtc002 = true;
-                jjtree.openNodeScope(jjtn002);
+                    boolean jjtc002 = true;
+                    jjtree.openNodeScope(jjtn002);
         try {
           Expr2(sign);
         } catch (Throwable jjte002) {
 if (jjtc002) {
-                  jjtree.clearNodeScope(jjtn002);
-                  jjtc002 = false;
-                } else {
-                  jjtree.popNode();
-                }
-                if (jjte002 instanceof RuntimeException) {
-                  {if (true) throw (RuntimeException)jjte002;}
-                }
-                if (jjte002 instanceof ParseException) {
-                  {if (true) throw (ParseException)jjte002;}
-                }
-                {if (true) throw (Error)jjte002;}
+                      jjtree.clearNodeScope(jjtn002);
+                      jjtc002 = false;
+                    } else {
+                      jjtree.popNode();
+                    }
+                    if (jjte002 instanceof RuntimeException) {
+                      {if (true) throw (RuntimeException)jjte002;}
+                    }
+                    if (jjte002 instanceof ParseException) {
+                      {if (true) throw (ParseException)jjte002;}
+                    }
+                    {if (true) throw (Error)jjte002;}
         } finally {
 if (jjtc002) {
-                  jjtree.closeNodeScope(jjtn002,  2);
-                }
+                      jjtree.closeNodeScope(jjtn002,  2);
+                    }
         }
       } else {
         jj_consume_token(-1);
@@ -210,40 +232,45 @@ if (jjtc002) {
 }
 
   static final public void Expr3(int sign) throws ParseException {Token t;
-    if (jj_2_10(2)) {
+    try {
+      if (jj_2_10(2)) {
 SimpleNode jjtn001 = new SimpleNode(JJTTERM);
       boolean jjtc001 = true;
       jjtree.openNodeScope(jjtn001);
-      try {
-        if (jj_2_8(2)) {
-          t = jj_consume_token(INTEGER);
+        try {
+          if (jj_2_8(2)) {
+            t = jj_consume_token(INTEGER);
 jjtree.closeNodeScope(jjtn001, true);
                       jjtc001 = false;
 jjtn001.val = sign * Integer.parseInt(t.image);
-        } else if (jj_2_9(2)) {
-          t = jj_consume_token(SYMBOL);
+          } else if (jj_2_9(2)) {
+            t = jj_consume_token(SYMBOL);
 jjtree.closeNodeScope(jjtn001, true);
                      jjtc001 = false;
 jjtn001.val = sign * SymbolTable.get_value(t.image);
-        } else {
-          jj_consume_token(-1);
-          throw new ParseException();
-        }
-      } finally {
+          } else {
+            jj_consume_token(-1);
+            throw new ParseException();
+          }
+        } finally {
 if (jjtc001) {
         jjtree.closeNodeScope(jjtn001, true);
       }
+        }
+      } else if (jj_2_11(2)) {
+        jj_consume_token(10);
+        Expr3(-1);
+      } else if (jj_2_12(2)) {
+        jj_consume_token(13);
+        Expr1(sign);
+        jj_consume_token(14);
+      } else {
+        jj_consume_token(-1);
+        throw new ParseException();
       }
-    } else if (jj_2_11(2)) {
-      jj_consume_token(10);
-      Expr3(-1);
-    } else if (jj_2_12(2)) {
-      jj_consume_token(13);
-      Expr1(sign);
-      jj_consume_token(14);
-    } else {
-      jj_consume_token(-1);
-      throw new ParseException();
+    } catch (ParseException e) {
+System.out.println(e.getMessage());
+        System.out.println("Expecting Symbol or integer");
     }
 }
 
@@ -343,6 +370,56 @@ if (jjtc001) {
     finally { jj_save(11, xla); }
   }
 
+  static private boolean jj_3_9()
+ {
+    if (jj_scan_token(SYMBOL)) return true;
+    return false;
+  }
+
+  static private boolean jj_3R_4()
+ {
+    if (jj_3R_2()) return true;
+    return false;
+  }
+
+  static private boolean jj_3_8()
+ {
+    if (jj_scan_token(INTEGER)) return true;
+    return false;
+  }
+
+  static private boolean jj_3_10()
+ {
+    Token xsp;
+    xsp = jj_scanpos;
+    if (jj_3_8()) {
+    jj_scanpos = xsp;
+    if (jj_3_9()) return true;
+    }
+    return false;
+  }
+
+  static private boolean jj_3R_3()
+ {
+    Token xsp;
+    xsp = jj_scanpos;
+    if (jj_3_10()) {
+    jj_scanpos = xsp;
+    if (jj_3_11()) {
+    jj_scanpos = xsp;
+    if (jj_3_12()) return true;
+    }
+    }
+    return false;
+  }
+
+  static private boolean jj_3_6()
+ {
+    if (jj_scan_token(12)) return true;
+    if (jj_3R_3()) return true;
+    return false;
+  }
+
   static private boolean jj_3_1()
  {
     if (jj_scan_token(SYMBOL)) return true;
@@ -365,12 +442,6 @@ if (jjtc001) {
     jj_scanpos = xsp;
     if (jj_3_6()) return true;
     }
-    return false;
-  }
-
-  static private boolean jj_3R_2()
- {
-    if (jj_3R_3()) return true;
     return false;
   }
 
@@ -399,6 +470,12 @@ if (jjtc001) {
     return false;
   }
 
+  static private boolean jj_3R_2()
+ {
+    if (jj_3R_3()) return true;
+    return false;
+  }
+
   static private boolean jj_3_12()
  {
     if (jj_scan_token(13)) return true;
@@ -409,56 +486,6 @@ if (jjtc001) {
   static private boolean jj_3_11()
  {
     if (jj_scan_token(10)) return true;
-    if (jj_3R_3()) return true;
-    return false;
-  }
-
-  static private boolean jj_3R_4()
- {
-    if (jj_3R_2()) return true;
-    return false;
-  }
-
-  static private boolean jj_3_9()
- {
-    if (jj_scan_token(SYMBOL)) return true;
-    return false;
-  }
-
-  static private boolean jj_3_8()
- {
-    if (jj_scan_token(INTEGER)) return true;
-    return false;
-  }
-
-  static private boolean jj_3R_3()
- {
-    Token xsp;
-    xsp = jj_scanpos;
-    if (jj_3_10()) {
-    jj_scanpos = xsp;
-    if (jj_3_11()) {
-    jj_scanpos = xsp;
-    if (jj_3_12()) return true;
-    }
-    }
-    return false;
-  }
-
-  static private boolean jj_3_10()
- {
-    Token xsp;
-    xsp = jj_scanpos;
-    if (jj_3_8()) {
-    jj_scanpos = xsp;
-    if (jj_3_9()) return true;
-    }
-    return false;
-  }
-
-  static private boolean jj_3_6()
- {
-    if (jj_scan_token(12)) return true;
     if (jj_3R_3()) return true;
     return false;
   }

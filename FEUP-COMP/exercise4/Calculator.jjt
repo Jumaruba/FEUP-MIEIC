@@ -56,6 +56,21 @@ TOKEN :
     | < SEMICOL: ";" >
 }
 
+ JAVACODE
+ void error_skipto(int kind) {
+   ParseException e = generateParseException();  // generate the exception object
+   System.out.println(e.toString());  // print the error message
+   Token t;
+   // consume tokens all the way up to a token of "kind" - use a do-while loop
+   // rather than a while because the current token is the one immediately before
+   // the erroneous token (in our case the token immediately before what should
+   // have been "if"/"while".
+   do {
+     t = getNextToken();
+   }
+   while (t.kind != kind);
+ }
+
 SimpleNode Expression(): {Token sym, value; }
 {
     ( sym =<SYMBOL> "=" value=<INTEGER>{
@@ -67,10 +82,10 @@ SimpleNode Expression(): {Token sym, value; }
 void Expr1(int sign) #void: {}
 {
     Expr2(sign)
-    [
-        ( "+" Expr2(sign) #Add(2)
-        | "-" Expr2(sign) #Sub(2))
-    ]
+        [
+            ( "+" Expr2(sign) #Add(2)
+            | "-" Expr2(sign) #Sub(2))
+        ]
 }
 
 void Expr2(int sign) #void: {}
@@ -80,10 +95,12 @@ void Expr2(int sign) #void: {}
         ( "*" Expr3(1) #Mul(2)
         | "/" Expr3(1) #Div(2))
     ]
+
 }
 
 void Expr3(int sign) #void: {Token t;}
 {
+    try {
     ( t = <INTEGER> {
         jjtThis.val = sign * Integer.parseInt(t.image);
     }
@@ -92,4 +109,9 @@ void Expr3(int sign) #void: {Token t;}
     }) #Term
     | "-" Expr3(-1)
     | "(" Expr1(sign) ")"
+    }catch(ParseException e){
+        System.out.println(e.getMessage());
+        System.out.println("Expecting Symbol or integer");
+
+    }
 }

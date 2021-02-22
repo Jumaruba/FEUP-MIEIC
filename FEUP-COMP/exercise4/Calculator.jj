@@ -60,6 +60,32 @@ TOKEN :
     | < SEMICOL: ";" >
 }
 
+ JAVACODE
+ void error_skipto(int kind) {/*@bgen(jjtree) error_skipto */
+SimpleNode jjtn000 = new SimpleNode(JJTERROR_SKIPTO);
+boolean jjtc000 = true;
+jjtree.openNodeScope(jjtn000);
+try {
+/*@egen*/
+   ParseException e = generateParseException();  // generate the exception object
+   System.out.println(e.toString());  // print the error message
+   Token t;
+   // consume tokens all the way up to a token of "kind" - use a do-while loop
+   // rather than a while because the current token is the one immediately before
+   // the erroneous token (in our case the token immediately before what should
+   // have been "if"/"while".
+   do {
+     t = getNextToken();
+   }
+   while (t.kind != kind);/*@bgen(jjtree)*/
+} finally {
+  if (jjtc000) {
+    jjtree.closeNodeScope(jjtn000, true);
+  }
+}
+/*@egen*/
+ }
+
 SimpleNode Expression(): {/*@bgen(jjtree) Expression */
                           SimpleNode jjtn000 = new SimpleNode(JJTEXPRESSION);
                           boolean jjtc000 = true;
@@ -102,64 +128,64 @@ SimpleNode Expression(): {/*@bgen(jjtree) Expression */
 void Expr1(int sign)      : {}
 {
     Expr2(sign)
-    [
-        ( "+"/*@bgen(jjtree) #Add( 2) */
-              {
-                SimpleNode jjtn001 = new SimpleNode(JJTADD);
-                boolean jjtc001 = true;
-                jjtree.openNodeScope(jjtn001);
-              }
-              try {
+        [
+            ( "+"/*@bgen(jjtree) #Add( 2) */
+                  {
+                    SimpleNode jjtn001 = new SimpleNode(JJTADD);
+                    boolean jjtc001 = true;
+                    jjtree.openNodeScope(jjtn001);
+                  }
+                  try {
 /*@egen*/ Expr2(sign)/*@bgen(jjtree)*/
-              } catch (Throwable jjte001) {
-                if (jjtc001) {
-                  jjtree.clearNodeScope(jjtn001);
-                  jjtc001 = false;
-                } else {
-                  jjtree.popNode();
-                }
-                if (jjte001 instanceof RuntimeException) {
-                  throw (RuntimeException)jjte001;
-                }
-                if (jjte001 instanceof ParseException) {
-                  throw (ParseException)jjte001;
-                }
-                throw (Error)jjte001;
-              } finally {
-                if (jjtc001) {
-                  jjtree.closeNodeScope(jjtn001,  2);
-                }
-              }
+                  } catch (Throwable jjte001) {
+                    if (jjtc001) {
+                      jjtree.clearNodeScope(jjtn001);
+                      jjtc001 = false;
+                    } else {
+                      jjtree.popNode();
+                    }
+                    if (jjte001 instanceof RuntimeException) {
+                      throw (RuntimeException)jjte001;
+                    }
+                    if (jjte001 instanceof ParseException) {
+                      throw (ParseException)jjte001;
+                    }
+                    throw (Error)jjte001;
+                  } finally {
+                    if (jjtc001) {
+                      jjtree.closeNodeScope(jjtn001,  2);
+                    }
+                  }
 /*@egen*/        
-        | "-"/*@bgen(jjtree) #Sub( 2) */
-              {
-                SimpleNode jjtn002 = new SimpleNode(JJTSUB);
-                boolean jjtc002 = true;
-                jjtree.openNodeScope(jjtn002);
-              }
-              try {
+            | "-"/*@bgen(jjtree) #Sub( 2) */
+                  {
+                    SimpleNode jjtn002 = new SimpleNode(JJTSUB);
+                    boolean jjtc002 = true;
+                    jjtree.openNodeScope(jjtn002);
+                  }
+                  try {
 /*@egen*/ Expr2(sign)/*@bgen(jjtree)*/
-              } catch (Throwable jjte002) {
-                if (jjtc002) {
-                  jjtree.clearNodeScope(jjtn002);
-                  jjtc002 = false;
-                } else {
-                  jjtree.popNode();
-                }
-                if (jjte002 instanceof RuntimeException) {
-                  throw (RuntimeException)jjte002;
-                }
-                if (jjte002 instanceof ParseException) {
-                  throw (ParseException)jjte002;
-                }
-                throw (Error)jjte002;
-              } finally {
-                if (jjtc002) {
-                  jjtree.closeNodeScope(jjtn002,  2);
-                }
-              }
+                  } catch (Throwable jjte002) {
+                    if (jjtc002) {
+                      jjtree.clearNodeScope(jjtn002);
+                      jjtc002 = false;
+                    } else {
+                      jjtree.popNode();
+                    }
+                    if (jjte002 instanceof RuntimeException) {
+                      throw (RuntimeException)jjte002;
+                    }
+                    if (jjte002 instanceof ParseException) {
+                      throw (ParseException)jjte002;
+                    }
+                    throw (Error)jjte002;
+                  } finally {
+                    if (jjtc002) {
+                      jjtree.closeNodeScope(jjtn002,  2);
+                    }
+                  }
 /*@egen*/        )
-    ]
+        ]
 }
 
 void Expr2(int sign)      : {}
@@ -223,10 +249,12 @@ void Expr2(int sign)      : {}
               }
 /*@egen*/        )
     ]
+
 }
 
 void Expr3(int sign)      : {Token t;}
-{/*@bgen(jjtree) Term */
+{
+    try {/*@bgen(jjtree) Term */
     {
       SimpleNode jjtn001 = new SimpleNode(JJTTERM);
       boolean jjtc001 = true;
@@ -258,4 +286,9 @@ void Expr3(int sign)      : {Token t;}
 /*@egen*/      
     | "-" Expr3(-1)
     | "(" Expr1(sign) ")"
+    }catch(ParseException e){
+        System.out.println(e.getMessage());
+        System.out.println("Expecting Symbol or integer");
+
+    }
 }
