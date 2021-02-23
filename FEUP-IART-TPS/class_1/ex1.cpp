@@ -1,4 +1,7 @@
 #include <bits/stdc++.h>
+#include <fmt/ostream.h> 
+
+using fmt::print; 
 using namespace std;
 
 #define LIM_DEPTH   20
@@ -92,6 +95,8 @@ State solveBFS(State init, vector<State> goals, int& cost) {
 int solveDFS(State currState, vector<State> goals, int depth, int& solveCost) {
     solveCost++;
     if (isEndState(goals, currState))  return depth + 1;
+     
+
     if (depth > LIM_DEPTH) return -1;
 
     int newCost = -1;
@@ -117,6 +122,9 @@ int solveDFS(State currState, vector<State> goals, int depth, int& solveCost) {
 
 }
 
+
+
+
 int main() {
     State init(0, 0);
     int cost = 0;
@@ -125,12 +133,12 @@ int main() {
 
     int solveCost = -1;
     int solutionCost = solveDFS(init, goals, -1, solveCost);
-    cout << "Cost to go from init to goal (number of nodes between those two) \t ::" << solutionCost << endl; 
-    cout << "Cost to process solution (number of nodes visited) \t\t\t ::" << solveCost << endl; 
-    cout << "Total cost :: " << solveCost + solutionCost << endl;
+    print("Cost to go from init to goal (number of nodes between those two) \t :: {} \n", solutionCost); 
+    print("Cost to process solution (number of nodes visited) \t\t\t :: {} \n",  solveCost); 
+    print("Total cost :: ", solveCost + solutionCost) ; 
     
     solveCost = 0; 
     solveBFS(init, goals, solveCost);  
-    cout << "Cost to process solution (number of nodes visited) \t\t\t ::" << solveCost << endl;  
+    print("Cost to process solution (number of nodes visited) \t\t :: {} \n", solveCost); 
 
 }
