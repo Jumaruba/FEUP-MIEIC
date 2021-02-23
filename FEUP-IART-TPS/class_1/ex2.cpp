@@ -4,6 +4,8 @@ using namespace std;
 using fmt::print;
 
 
+#define LIM_DEPTH   20 
+
 // possible states = operations: -1,1; 1,1; -1,-1;
 class State {
 public:
@@ -49,10 +51,8 @@ public:
     } 
 
     friend ostream& operator<<(ostream& os, const State& s) {
-        cout << "miRight: " << s.miRight << " || " << 
-                "caRight: " << s.caRight << " || " <<  endl <<
-                "miLeft: " << s.miLeft << " || " << 
-                "caLeft: " << s.caLeft <<  endl; 
+        cout << "M:-" << s.miLeft << " C:-" << s.caLeft << " <<<" << "+-+-+-+" <<  
+                ">>> M:-" << s.miRight << " C:-" << s.caRight << endl; 
     }
 
 };
@@ -63,10 +63,11 @@ int solveBFS(State init, State goal) {
 
     q.push(init);
     while (!q.empty()) {
-        cost ++; 
+        cost ++;  
         State currState = q.front();
-        q.pop();
-        if (currState == goal) return cost;
+        q.pop(); 
+        cout << currState << endl; 
+        if (currState == goal) return cost; 
 
         if (currState.canSend(1, 1)) q.push(currState.send(1, 1));
         if (currState.canSend(-1, 1)) q.push(currState.send(-1, 1));
@@ -74,9 +75,28 @@ int solveBFS(State init, State goal) {
     }
 }
 
+int solveDFS(State currState, State goal, int depth){ 
+    cout << currState << endl; 
+    if (currState == goal) return depth; 
+    if (depth > LIM_DEPTH) return -1; 
+
+    int value = -1; 
+    if (currState.canSend(1,1))  value = solveDFS(currState.send(1,1), goal, depth + 1); 
+    if (value != -1) return value; 
+
+    if (currState.canSend(1,-1)) value = solveDFS(currState.send(1,-1), goal, depth +1); 
+    if (value != -1) return value; 
+
+    if (currState.canSend(-1,-1)) value = solveDFS(currState.send(-1,-1), goal, depth +1); 
+    if (value != -1) return value;  
+
+}
+
 int main() {
     State init(3,3,0,0);   
     State goal(0,0,3,3); 
-    cout << solveBFS(init, goal) << endl; 
-
+    print("SOLVE BY BFS\n"); 
+    cout << solveBFS(init, goal) << endl;  
+    print("SOLVE BY DFS\n"); 
+    cout << solveDFS(init, goal, 0) << endl;  
 }
