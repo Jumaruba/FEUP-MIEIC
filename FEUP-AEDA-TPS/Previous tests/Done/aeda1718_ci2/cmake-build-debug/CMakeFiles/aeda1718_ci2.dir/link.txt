@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/aeda1718_ci2.dir/main.cpp.o CMakeFiles/aeda1718_ci2.dir/Doctor.cpp.o CMakeFiles/aeda1718_ci2.dir/Hospital.cpp.o  -o aeda1718_ci2 

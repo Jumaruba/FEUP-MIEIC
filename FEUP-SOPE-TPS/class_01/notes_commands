@@ -1,8 +1,0 @@
-See the return value of the last program:
-echo $?
-
-Copy things from a file to another: 
-echo |cat <file_1> >> <file_2> 
-
-How to create new ambient variables 
-export NAME="atributte something to the variable"

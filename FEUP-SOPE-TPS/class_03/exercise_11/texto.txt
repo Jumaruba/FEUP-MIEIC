@@ -1,4 +1,0 @@
-a.out
-ex11.c
-text.txt
-texto.txt

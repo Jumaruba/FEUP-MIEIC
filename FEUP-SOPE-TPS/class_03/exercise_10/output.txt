@@ -1,7 +1,0 @@
-.:
-total 16
-drwxrwxrwx 1 maruba maruba 4096 Mar  7 10:44 .
-drwxrwxrwx 1 maruba maruba 4096 Mar  7 10:29 ..
--rwxrwxrwx 1 maruba maruba 8656 Mar  7 10:44 a.out
--rwxrwxrwx 1 maruba maruba  885 Mar  7 10:44 ex10.c
--r-xr-xr-x 1 maruba maruba    0 Mar  7 10:44 output.txt

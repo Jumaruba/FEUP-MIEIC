@@ -1,5 +1,0 @@
-ID                            Name                          Project                  ShortExam                Exam                     Final_grade
-up20179399                    Ana Soares Silva              17                       13.5                     15.7                     16
-up20179699                    Ana Rosa Silva                17                       13.5                     15.7                     16
-up20179599                    Ana Xavier Silva              12                       13                       9                        11
-up20179996                    Ana Selena Silva              17                       13.5                     15.7                     16

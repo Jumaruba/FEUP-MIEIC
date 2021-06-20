@@ -1,6 +1,0 @@
-up20179399;Ana Soares Silva;13.5;17;15.7
-up20179599;Ana Carla Silva;0;5;15.7
-up20179699;Ana Rosa Silva;13.5;17;15.7
-up20179399;Ana Gonçalves Silva;05;17;0;5
-up20179599;Ana Xavier Silva;13;12;9
-up20179996;Ana Selena Silva;13.5;17;15.7
