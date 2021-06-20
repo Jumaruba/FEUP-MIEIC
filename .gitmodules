@@ -28,3 +28,15 @@
 [submodule "FEUP-RCOM-Proj"]
 	path = FEUP-RCOM-Proj
 	url = https://github.com/Jumaruba/FEUP-RCOM-Proj
+[submodule "BackupSystem"]
+	path = BackupSystem
+	url = https://github.com/Jumaruba/BackupSystem
+[submodule "ChordBackupSystem"]
+	path = ChordBackupSystem
+	url = https://github.com/Jumaruba/ChordBackupSystem
+[submodule "JmmCompiler"]
+	path = JmmCompiler
+	url = https://github.com/Jumaruba/JmmCompiler
+[submodule "MultiLabelClassification"]
+	path = MultiLabelClassification
+	url = https://github.com/Jumaruba/MultiLabelClassification
