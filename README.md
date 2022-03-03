@@ -24,3 +24,4 @@ However, some projects have its own repository and may not follow the convention
 | [MultiLabelClassification](https://github.com/Jumaruba/MultiLabelClassification) | IART | Proj | A multilabel classification problem challenge, solved with python | 3th | 
 | [BrainShare](https://github.com/Jumaruba/BrainShare) | LBAW | Proj | Web site project | 3th | 
 | [Topic Publish Subscirber](https://github.com/Jumaruba/topic-publish-subscriber/blob/master/README.md) | SDLE | Proj1 | A distributed system in a publish subscriber style | 4th | 
+| [Distributed fake twitter](https://github.com/Jumaruba/distributed-fake-twitter/tree/master) | SDLE | Proj2 | This is a simple distributed version of twitter using kademlia system.  | 4th | 
