@@ -25,4 +25,6 @@ However, some projects have its own repository and may not follow the convention
 | [BrainShare](https://github.com/Jumaruba/BrainShare) | LBAW | Proj | Web site project | 3th | 
 | [Topic Publish Subscirber](https://github.com/Jumaruba/topic-publish-subscriber/blob/master/README.md) | SDLE | Proj1 | A distributed system in a publish subscriber style | 4th | 
 | [Distributed fake twitter](https://github.com/Jumaruba/distributed-fake-twitter/tree/master) | SDLE | Proj2 | This is a simple distributed version of twitter using kademlia system.  | 4th | 
-| [Databases and Technologies](https://github.com/Jumaruba/TBDA) | TBDA | All | Assignments during the subject | 4th |  
+| [Databases and Technologies](https://github.com/Jumaruba/TBDA) | TBDA | All | Assignments during the subject | 4th | 
+| [Weather Forecast](https://github.com/Jumaruba/Weather-Forecast) | CMP | Proj2 | A weather app built with Flutter | 4th  |
+| [VGA Invaders](https://github.com/Jumaruba/vga-invaders) | SETR | Proj | Produces a VGA signal to a monitor using arduino Due | 4th | 
